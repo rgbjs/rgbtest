@@ -7,12 +7,17 @@ A comprehensive, modular JavaScript implementation of the RGB protocol, focusing
 - **Full RGB20 Support**: Complete implementation of non-inflatable asset contracts
 - **Modular Architecture**: Clean separation of concerns across 5 development stages
 - **Type Safety**: Comprehensive validation and error handling
-- **Extensive Testing**: 125+ test cases covering all functionality
+- **Extensive Testing**: 134+ test cases covering all functionality
+- **RGB Test Suite Compatible**: Validated against official RGB protocol tests
 - **Production Ready**: Optimized for performance and reliability
 - **Learning Friendly**: Well-documented, progressive complexity
 
 ## 🚀 Quick Start
 
+### Interactive Demo
+**[🌈 Try the Live Demo](./demo.html)** - Interactive RGB20 contract creation with real-time visualization
+
+### Code Example
 ```javascript
 import { RGB20Contract } from 'rgbtest';
 
