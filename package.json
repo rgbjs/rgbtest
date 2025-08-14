@@ -1,6 +1,6 @@
 {
   "name": "rgbtest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Comprehensive JavaScript implementation of RGB protocol with focus on RGB20 non-inflatable assets",
   "main": "src/index.js",
   "type": "module",
