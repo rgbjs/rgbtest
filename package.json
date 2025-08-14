@@ -1,0 +1,57 @@
+{
+  "name": "rgbtest",
+  "version": "0.0.1",
+  "description": "Comprehensive JavaScript implementation of RGB protocol with focus on RGB20 non-inflatable assets",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./utils": "./src/utils/index.js",
+    "./types": "./src/types/index.js",
+    "./genesis": "./src/genesis/index.js",
+    "./contract": "./src/contract/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage test/**/*.test.js",
+    "test:watch": "node --test --watch test/**/*.test.js",
+    "examples": "node examples/complete-rgb20-example.js",
+    "examples:stage1": "node examples/stage1-utilities.js",
+    "examples:stage2": "node examples/stage2-types.js",
+    "lint": "echo 'Linting with native ES modules'",
+    "build": "echo 'No build step needed for pure ESM'",
+    "prepublishOnly": "npm test",
+    "docs": "echo 'See README.md for documentation'"
+  },
+  "keywords": [
+    "rgb",
+    "rgb20", 
+    "bitcoin",
+    "layer2",
+    "smart-contracts",
+    "blockchain",
+    "cryptocurrency",
+    "tokens",
+    "assets",
+    "utxo"
+  ],
+  "author": "RGB Protocol Community",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgbjs/rgbtest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rgbjs/rgbtest/issues"
+  },
+  "homepage": "https://github.com/rgbjs/rgbtest#readme",
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ]
+}
