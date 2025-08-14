@@ -59,7 +59,7 @@ describe('RGB Tests Compatibility', () => {
 
     // Validate the decoded content matches
     const termsLength = parseInt(encoded.slice(0, 2), 16);
-    const decodedTerms = Buffer.from(encoded.slice(2, 2 + termsLength * 2), 'hex').toString();
+    const decodedTerms = Buffer.from(encoded.slice(4, 4 + termsLength * 2), 'hex').toString();
     assert.equal(decodedTerms, terms);
   });
 
